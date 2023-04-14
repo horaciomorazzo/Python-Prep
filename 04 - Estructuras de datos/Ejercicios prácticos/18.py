@@ -1,0 +1,6 @@
+mi_tupla = (1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20)
+for i in range(0,20):
+    if (mi_tupla[i]) == 20:
+        print('20 está en la lista')
+    if (mi_tupla[i]) == 30:
+        print('30 está en la lista')
