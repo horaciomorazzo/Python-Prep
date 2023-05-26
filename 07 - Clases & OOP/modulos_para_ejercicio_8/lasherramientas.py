@@ -37,11 +37,14 @@ class Herramientas:
             if b > 1:
                 lista1.append(a)
                 lista2.append(b)
-        maximo = max(lista2)
-        i = 0
-        while lista2[i] != maximo:
-            i += 1
-        print(lista1[i])
+        if lista2 == []:
+            print('No existe el valor modal para la lista ingresada')
+        else:
+            maximo = max(lista2)
+            i = 0
+            while lista2[i] != maximo:
+                i += 1
+            print(lista1[i])
 
     def conversion(self, umedida, r):
         for i in self.lista:
@@ -78,3 +81,5 @@ class Herramientas:
         for i in range(1, num + 1):
             f = f * i
         return f
+    
+            
