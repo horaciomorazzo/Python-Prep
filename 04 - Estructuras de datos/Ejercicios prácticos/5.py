@@ -1,2 +1,2 @@
 ciudades = ['Roma','Londres','París','Madrid','Montecarlo','Ibiza']
-print(ciudades[3:])
+print(ciudades[2:])
