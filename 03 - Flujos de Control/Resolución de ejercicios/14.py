@@ -5,15 +5,15 @@ def es_primo(n):
         if n % i == 0:
             return False
     return True
-
-a = 2
-r = " "
+r = '2'
+num = 1
 while r != "1":
-    for num in range(2, a):
-        if es_primo(num):
-            print(num)
-            r = input('Sigo?')
-            a += 1
+    num += 1
+    if es_primo(num):
+        print(num)
+        r = input('Sigo?. Ingrese 1 para finalizar')
+print('Hasta la vista!')
+
 
 
             

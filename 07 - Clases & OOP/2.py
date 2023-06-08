@@ -1,4 +1,4 @@
-class vehiculo:
+class Vehiculo:
     def __init__(self,color,tipo,cilindrada):
         self.color = color
         self.tipo = tipo

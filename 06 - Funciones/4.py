@@ -3,6 +3,7 @@
 # Ingresar 'M' si desea el mas repetido
 # Ingresar 'm' si desea el menos repetido
 # Cualquier otro ingreso muestra nada
+
 lista = [4,4,5,6,6,6,7,7,8]
 mm = 'M'
 lista.sort()
@@ -31,5 +32,6 @@ if mm == 'M':
 if mm == 'm':
     print(lista1[posicionmin],lista2[posicionmin])
 print('Hasta la vista Baby!')
+
 
     

@@ -4,3 +4,6 @@ for i in range(0,20):
         print('20 está en la lista')
     if (mi_tupla[i]) == 30:
         print('30 está en la lista')
+# otra opción
+print(20 in mi_tupla)
+print(30 in mi_tupla)
